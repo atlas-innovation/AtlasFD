@@ -30,7 +30,7 @@ public class ImageUtils {
 
   static {
     try {
-      System.loadLibrary("tensorflow_demo");
+      System.loadLibrary("tensorflow_inference");
     } catch (UnsatisfiedLinkError e) {
       LOGGER.w("Native library not found, native RGB -> YUV conversion may be unavailable.");
     }
