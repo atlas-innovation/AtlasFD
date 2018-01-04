@@ -1,0 +1,116 @@
+
+{
+	"buildFiles" : [ "/Users/brunoribeiro/Desktop/uce15/AtlasFD/app/jni/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"/Users/brunoribeiro/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/brunoribeiro/Desktop/uce15/AtlasFD/app/.externalNativeBuild/cmake/debug/x86 --target clean"
+	],
+	"cppFileExtensions" : [ "cc" ],
+	"libraries" : 
+	{
+		"tensorflow_demo-Debug-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "tensorflow_demo",
+			"buildCommand" : "/Users/brunoribeiro/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/brunoribeiro/Desktop/uce15/AtlasFD/app/.externalNativeBuild/cmake/debug/x86 --target tensorflow_demo",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/brunoribeiro/Downloads/android-ndk-r14b/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/brunoribeiro/Downloads/android-ndk-r14b/platforms/android-21/arch-x86  -Dtensorflow_demo_EXPORTS -I/Users/brunoribeiro/Desktop -I/Users/brunoribeiro/Desktop/uce15/AtlasFD/app/jni -isystem /Users/brunoribeiro/Downloads/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/brunoribeiro/Downloads/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /Users/brunoribeiro/Downloads/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security   -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/brunoribeiro/Desktop/uce15/AtlasFD/app/jni/imageutils_jni.cc",
+					"workingDirectory" : "/Users/brunoribeiro/Desktop/uce15/AtlasFD/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/brunoribeiro/Downloads/android-ndk-r14b/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/brunoribeiro/Downloads/android-ndk-r14b/platforms/android-21/arch-x86  -Dtensorflow_demo_EXPORTS -I/Users/brunoribeiro/Desktop -I/Users/brunoribeiro/Desktop/uce15/AtlasFD/app/jni -isystem /Users/brunoribeiro/Downloads/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/brunoribeiro/Downloads/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /Users/brunoribeiro/Downloads/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security   -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/brunoribeiro/Desktop/uce15/AtlasFD/app/jni/object_tracking/frame_pair.cc",
+					"workingDirectory" : "/Users/brunoribeiro/Desktop/uce15/AtlasFD/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/brunoribeiro/Downloads/android-ndk-r14b/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/brunoribeiro/Downloads/android-ndk-r14b/platforms/android-21/arch-x86  -Dtensorflow_demo_EXPORTS -I/Users/brunoribeiro/Desktop -I/Users/brunoribeiro/Desktop/uce15/AtlasFD/app/jni -isystem /Users/brunoribeiro/Downloads/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/brunoribeiro/Downloads/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /Users/brunoribeiro/Downloads/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security   -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/brunoribeiro/Desktop/uce15/AtlasFD/app/jni/object_tracking/image_neon.cc",
+					"workingDirectory" : "/Users/brunoribeiro/Desktop/uce15/AtlasFD/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/brunoribeiro/Downloads/android-ndk-r14b/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/brunoribeiro/Downloads/android-ndk-r14b/platforms/android-21/arch-x86  -Dtensorflow_demo_EXPORTS -I/Users/brunoribeiro/Desktop -I/Users/brunoribeiro/Desktop/uce15/AtlasFD/app/jni -isystem /Users/brunoribeiro/Downloads/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/brunoribeiro/Downloads/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /Users/brunoribeiro/Downloads/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security   -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/brunoribeiro/Desktop/uce15/AtlasFD/app/jni/object_tracking/keypoint_detector.cc",
+					"workingDirectory" : "/Users/brunoribeiro/Desktop/uce15/AtlasFD/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/brunoribeiro/Downloads/android-ndk-r14b/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/brunoribeiro/Downloads/android-ndk-r14b/platforms/android-21/arch-x86  -Dtensorflow_demo_EXPORTS -I/Users/brunoribeiro/Desktop -I/Users/brunoribeiro/Desktop/uce15/AtlasFD/app/jni -isystem /Users/brunoribeiro/Downloads/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/brunoribeiro/Downloads/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /Users/brunoribeiro/Downloads/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security   -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/brunoribeiro/Desktop/uce15/AtlasFD/app/jni/object_tracking/logging.cc",
+					"workingDirectory" : "/Users/brunoribeiro/Desktop/uce15/AtlasFD/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/brunoribeiro/Downloads/android-ndk-r14b/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/brunoribeiro/Downloads/android-ndk-r14b/platforms/android-21/arch-x86  -Dtensorflow_demo_EXPORTS -I/Users/brunoribeiro/Desktop -I/Users/brunoribeiro/Desktop/uce15/AtlasFD/app/jni -isystem /Users/brunoribeiro/Downloads/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/brunoribeiro/Downloads/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /Users/brunoribeiro/Downloads/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security   -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/brunoribeiro/Desktop/uce15/AtlasFD/app/jni/object_tracking/object_detector.cc",
+					"workingDirectory" : "/Users/brunoribeiro/Desktop/uce15/AtlasFD/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/brunoribeiro/Downloads/android-ndk-r14b/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/brunoribeiro/Downloads/android-ndk-r14b/platforms/android-21/arch-x86  -Dtensorflow_demo_EXPORTS -I/Users/brunoribeiro/Desktop -I/Users/brunoribeiro/Desktop/uce15/AtlasFD/app/jni -isystem /Users/brunoribeiro/Downloads/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/brunoribeiro/Downloads/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /Users/brunoribeiro/Downloads/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security   -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/brunoribeiro/Desktop/uce15/AtlasFD/app/jni/object_tracking/object_tracker.cc",
+					"workingDirectory" : "/Users/brunoribeiro/Desktop/uce15/AtlasFD/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/brunoribeiro/Downloads/android-ndk-r14b/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/brunoribeiro/Downloads/android-ndk-r14b/platforms/android-21/arch-x86  -Dtensorflow_demo_EXPORTS -I/Users/brunoribeiro/Desktop -I/Users/brunoribeiro/Desktop/uce15/AtlasFD/app/jni -isystem /Users/brunoribeiro/Downloads/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/brunoribeiro/Downloads/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /Users/brunoribeiro/Downloads/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security   -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/brunoribeiro/Desktop/uce15/AtlasFD/app/jni/object_tracking/object_tracker_jni.cc",
+					"workingDirectory" : "/Users/brunoribeiro/Desktop/uce15/AtlasFD/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/brunoribeiro/Downloads/android-ndk-r14b/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/brunoribeiro/Downloads/android-ndk-r14b/platforms/android-21/arch-x86  -Dtensorflow_demo_EXPORTS -I/Users/brunoribeiro/Desktop -I/Users/brunoribeiro/Desktop/uce15/AtlasFD/app/jni -isystem /Users/brunoribeiro/Downloads/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/brunoribeiro/Downloads/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /Users/brunoribeiro/Downloads/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security   -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/brunoribeiro/Desktop/uce15/AtlasFD/app/jni/object_tracking/optical_flow.cc",
+					"workingDirectory" : "/Users/brunoribeiro/Desktop/uce15/AtlasFD/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/brunoribeiro/Downloads/android-ndk-r14b/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/brunoribeiro/Downloads/android-ndk-r14b/platforms/android-21/arch-x86  -Dtensorflow_demo_EXPORTS -I/Users/brunoribeiro/Desktop -I/Users/brunoribeiro/Desktop/uce15/AtlasFD/app/jni -isystem /Users/brunoribeiro/Downloads/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/brunoribeiro/Downloads/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /Users/brunoribeiro/Downloads/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security   -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/brunoribeiro/Desktop/uce15/AtlasFD/app/jni/object_tracking/time_log.cc",
+					"workingDirectory" : "/Users/brunoribeiro/Desktop/uce15/AtlasFD/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/brunoribeiro/Downloads/android-ndk-r14b/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/brunoribeiro/Downloads/android-ndk-r14b/platforms/android-21/arch-x86  -Dtensorflow_demo_EXPORTS -I/Users/brunoribeiro/Desktop -I/Users/brunoribeiro/Desktop/uce15/AtlasFD/app/jni -isystem /Users/brunoribeiro/Downloads/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/brunoribeiro/Downloads/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /Users/brunoribeiro/Downloads/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security   -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/brunoribeiro/Desktop/uce15/AtlasFD/app/jni/object_tracking/tracked_object.cc",
+					"workingDirectory" : "/Users/brunoribeiro/Desktop/uce15/AtlasFD/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/brunoribeiro/Downloads/android-ndk-r14b/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/brunoribeiro/Downloads/android-ndk-r14b/platforms/android-21/arch-x86  -Dtensorflow_demo_EXPORTS -I/Users/brunoribeiro/Desktop -I/Users/brunoribeiro/Desktop/uce15/AtlasFD/app/jni -isystem /Users/brunoribeiro/Downloads/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/brunoribeiro/Downloads/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /Users/brunoribeiro/Downloads/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security   -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/brunoribeiro/Desktop/uce15/AtlasFD/app/jni/object_tracking/utils_neon.cc",
+					"workingDirectory" : "/Users/brunoribeiro/Desktop/uce15/AtlasFD/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/brunoribeiro/Downloads/android-ndk-r14b/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/brunoribeiro/Downloads/android-ndk-r14b/platforms/android-21/arch-x86  -Dtensorflow_demo_EXPORTS -I/Users/brunoribeiro/Desktop -I/Users/brunoribeiro/Desktop/uce15/AtlasFD/app/jni -isystem /Users/brunoribeiro/Downloads/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/brunoribeiro/Downloads/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /Users/brunoribeiro/Downloads/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security   -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/brunoribeiro/Desktop/uce15/AtlasFD/app/jni/rgb2yuv.cc",
+					"workingDirectory" : "/Users/brunoribeiro/Desktop/uce15/AtlasFD/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/brunoribeiro/Downloads/android-ndk-r14b/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/brunoribeiro/Downloads/android-ndk-r14b/platforms/android-21/arch-x86  -Dtensorflow_demo_EXPORTS -I/Users/brunoribeiro/Desktop -I/Users/brunoribeiro/Desktop/uce15/AtlasFD/app/jni -isystem /Users/brunoribeiro/Downloads/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/brunoribeiro/Downloads/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /Users/brunoribeiro/Downloads/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security   -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/brunoribeiro/Desktop/uce15/AtlasFD/app/jni/yuv2rgb.cc",
+					"workingDirectory" : "/Users/brunoribeiro/Desktop/uce15/AtlasFD/app/.externalNativeBuild/cmake/debug/x86"
+				}
+			],
+			"output" : "/Users/brunoribeiro/Desktop/uce15/AtlasFD/app/build/intermediates/cmake/debug/obj/x86/libtensorflow_demo.so",
+			"toolchain" : "13144374444325965316"
+		}
+	},
+	"toolchains" : 
+	{
+		"13144374444325965316" : 
+		{
+			"cCompilerExecutable" : "/Users/brunoribeiro/Downloads/android-ndk-r14b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/brunoribeiro/Downloads/android-ndk-r14b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}

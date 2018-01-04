@@ -25,12 +25,12 @@ import java.io.FileOutputStream;
  * Utility class for manipulating images.
  **/
 public class ImageUtils {
-  @SuppressWarnings("unused")
+
   private static final Logger LOGGER = new Logger();
 
   static {
     try {
-      System.loadLibrary("tensorflow_inference");
+      System.loadLibrary("tensorflow_demo");
     } catch (UnsatisfiedLinkError e) {
       LOGGER.w("Native library not found, native RGB -> YUV conversion may be unavailable.");
     }

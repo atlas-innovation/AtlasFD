@@ -1,0 +1,3 @@
+/Users/brunoribeiro/Desktop/uce15/AtlasFD/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Users/brunoribeiro/Desktop/uce15/AtlasFD/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/Users/brunoribeiro/Desktop/uce15/AtlasFD/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/tensorflow_demo.dir
